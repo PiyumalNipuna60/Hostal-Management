@@ -48,16 +48,16 @@
                </font></JFXTextField>
          </children>
       </AnchorPane>
-      <TableView fx:id="tblStudent" layoutX="511.0" layoutY="96.0" opacity="0.67" prefHeight="371.0" prefWidth="564.0" stylesheets="@stylesheets/table.css">
-        <columns>
-          <TableColumn fx:id="colId" prefWidth="75.0" text="Student Id" />
-          <TableColumn fx:id="colName" prefWidth="75.0" text="Name" />
+      <TableView fx:id="tblStudent" layoutX="511.0" layoutY="96.0" opacity="0.9" prefHeight="371.0" prefWidth="564.0" stylesheets="@stylesheets/table.css">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="75.0" text="Student Id" />
+            <TableColumn fx:id="colName" prefWidth="75.0" text="Name" />
             <TableColumn fx:id="colAddress" prefWidth="75.0" text="Address" />
             <TableColumn fx:id="colMobile" prefWidth="82.0" text="Mobile" />
             <TableColumn fx:id="colDOB" prefWidth="88.0" text="DOB" />
             <TableColumn fx:id="colGender" prefWidth="98.0" text="Gender" />
             <TableColumn fx:id="colOption" prefWidth="70.0" text="---" />
-        </columns>
+         </columns>
       </TableView>
       <AnchorPane layoutX="52.0" layoutY="309.0" prefHeight="48.0" prefWidth="400.0" style="-fx-border-color: #EDEDF0; -fx-border-width: 1.5; -fx-border-radius: 5; -fx-background-radius: 5;">
          <children>

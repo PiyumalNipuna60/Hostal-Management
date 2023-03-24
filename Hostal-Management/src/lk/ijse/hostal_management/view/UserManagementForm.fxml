@@ -48,7 +48,7 @@
             </JFXTextField>
          </children>
       </AnchorPane>
-      <TableView fx:id="tblUser" layoutX="571.0" layoutY="106.0" opacity="0.67" prefHeight="371.0" prefWidth="494.0" stylesheets="@stylesheets/table.css">
+      <TableView fx:id="tblUser" layoutX="571.0" layoutY="106.0" opacity="0.9" prefHeight="371.0" prefWidth="494.0" stylesheets="@stylesheets/table.css">
          <columns>
             <TableColumn fx:id="colNIC" prefWidth="98.0" text="NIC" />
             <TableColumn fx:id="colName" prefWidth="96.0" text="Name" />
